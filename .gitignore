@@ -1,4 +1,24 @@
+BF_Segmentation/checkpoints/
+BF_Segmentation/DAVIS/
+BF_Segmentation/ECSSD/
+BF_Segmentation/MSRA10K_Imgs_GT/
+BF_Segmentation/vgg16.npy
+DAVIS\ 2
+post_processing/result/
+result-*
+SSD/__pycache__
+SSD/checkpoints
+SSD/demo
+
+
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
+.DS_Store
 __pycache__/
 *.py[cod]
 *$py.class
