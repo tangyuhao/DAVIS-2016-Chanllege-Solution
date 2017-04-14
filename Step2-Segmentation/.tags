@@ -1,0 +1,194 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FCN16VGG	fcn16_vgg.py	/^class FCN16VGG:$/;"	c
+FCN32VGG	fcn32_vgg.py	/^class FCN32VGG:$/;"	c
+FCN8VGG	fcn8_vgg.py	/^class FCN8VGG:$/;"	c
+FCN8VGG	fcn8_vgg_ours.py	/^class FCN8VGG:$/;"	c
+VGG_MEAN	fcn16_vgg.py	/^VGG_MEAN = [103.939, 116.779, 123.68]$/;"	v
+VGG_MEAN	fcn32_vgg.py	/^VGG_MEAN = [103.939, 116.779, 123.68]$/;"	v
+VGG_MEAN	fcn8_vgg.py	/^VGG_MEAN = [103.939, 116.779, 123.68]$/;"	v
+VGG_MEAN	fcn8_vgg_ours.py	/^VGG_MEAN = [103.939, 116.779, 123.68]$/;"	v
+__init__	fcn16_vgg.py	/^    def __init__(self, vgg16_npy_path=None):$/;"	m	class:FCN16VGG
+__init__	fcn32_vgg.py	/^    def __init__(self, vgg16_npy_path=None):$/;"	m	class:FCN32VGG
+__init__	fcn8_vgg.py	/^    def __init__(self, vgg16_npy_path=None):$/;"	m	class:FCN8VGG
+__init__	fcn8_vgg_ours.py	/^    def __init__(self, vgg16_npy_path=None):$/;"	m	class:FCN8VGG
+_activation_summary	fcn16_vgg.py	/^def _activation_summary(x):$/;"	f
+_activation_summary	fcn32_vgg.py	/^def _activation_summary(x):$/;"	f
+_activation_summary	fcn8_vgg.py	/^def _activation_summary(x):$/;"	f
+_activation_summary	fcn8_vgg_ours.py	/^def _activation_summary(x):$/;"	f
+_add_wd_and_summary	fcn8_vgg.py	/^    def _add_wd_and_summary(self, var, wd, collection_name=None):$/;"	m	class:FCN8VGG
+_add_wd_and_summary	fcn8_vgg_ours.py	/^    def _add_wd_and_summary(self, var, wd, collection_name=None):$/;"	m	class:FCN8VGG
+_bias_reshape	fcn16_vgg.py	/^    def _bias_reshape(self, bweight, num_orig, num_new):$/;"	m	class:FCN16VGG
+_bias_reshape	fcn32_vgg.py	/^    def _bias_reshape(self, bweight, num_orig, num_new):$/;"	m	class:FCN32VGG
+_bias_reshape	fcn8_vgg.py	/^    def _bias_reshape(self, bweight, num_orig, num_new):$/;"	m	class:FCN8VGG
+_bias_reshape	fcn8_vgg_ours.py	/^    def _bias_reshape(self, bweight, num_orig, num_new):$/;"	m	class:FCN8VGG
+_bias_variable	fcn16_vgg.py	/^    def _bias_variable(self, shape, constant=0.0):$/;"	m	class:FCN16VGG
+_bias_variable	fcn32_vgg.py	/^    def _bias_variable(self, shape, constant=0.0):$/;"	m	class:FCN32VGG
+_bias_variable	fcn8_vgg.py	/^    def _bias_variable(self, shape, constant=0.0):$/;"	m	class:FCN8VGG
+_bias_variable	fcn8_vgg_ours.py	/^    def _bias_variable(self, shape, constant=0.0):$/;"	m	class:FCN8VGG
+_conv_layer	fcn16_vgg.py	/^    def _conv_layer(self, bottom, name):$/;"	m	class:FCN16VGG
+_conv_layer	fcn32_vgg.py	/^    def _conv_layer(self, bottom, name):$/;"	m	class:FCN32VGG
+_conv_layer	fcn8_vgg.py	/^    def _conv_layer(self, bottom, name):$/;"	m	class:FCN8VGG
+_conv_layer	fcn8_vgg_ours.py	/^    def _conv_layer(self, bottom, name):$/;"	m	class:FCN8VGG
+_fc_layer	fcn16_vgg.py	/^    def _fc_layer(self, bottom, name, num_classes=None,$/;"	m	class:FCN16VGG
+_fc_layer	fcn32_vgg.py	/^    def _fc_layer(self, bottom, name, num_classes=None,$/;"	m	class:FCN32VGG
+_fc_layer	fcn8_vgg.py	/^    def _fc_layer(self, bottom, name, num_classes=None,$/;"	m	class:FCN8VGG
+_fc_layer	fcn8_vgg_ours.py	/^    def _fc_layer(self, bottom, name, num_classes=None,$/;"	m	class:FCN8VGG
+_max_pool	fcn16_vgg.py	/^    def _max_pool(self, bottom, name, debug):$/;"	m	class:FCN16VGG
+_max_pool	fcn32_vgg.py	/^    def _max_pool(self, bottom, name, debug):$/;"	m	class:FCN32VGG
+_max_pool	fcn8_vgg.py	/^    def _max_pool(self, bottom, name, debug):$/;"	m	class:FCN8VGG
+_max_pool	fcn8_vgg_ours.py	/^    def _max_pool(self, bottom, name, debug):$/;"	m	class:FCN8VGG
+_score_layer	fcn16_vgg.py	/^    def _score_layer(self, bottom, name, num_classes):$/;"	m	class:FCN16VGG
+_score_layer	fcn32_vgg.py	/^    def _score_layer(self, bottom, name, num_classes):$/;"	m	class:FCN32VGG
+_score_layer	fcn8_vgg.py	/^    def _score_layer(self, bottom, name, num_classes):$/;"	m	class:FCN8VGG
+_score_layer	fcn8_vgg_ours.py	/^    def _score_layer(self, bottom, name, num_classes):$/;"	m	class:FCN8VGG
+_summary_reshape	fcn16_vgg.py	/^    def _summary_reshape(self, fweight, shape, num_new):$/;"	m	class:FCN16VGG
+_summary_reshape	fcn32_vgg.py	/^    def _summary_reshape(self, fweight, shape, num_new):$/;"	m	class:FCN32VGG
+_summary_reshape	fcn8_vgg.py	/^    def _summary_reshape(self, fweight, shape, num_new):$/;"	m	class:FCN8VGG
+_summary_reshape	fcn8_vgg_ours.py	/^    def _summary_reshape(self, fweight, shape, num_new):$/;"	m	class:FCN8VGG
+_upscore_layer	fcn16_vgg.py	/^    def _upscore_layer(self, bottom, shape,$/;"	m	class:FCN16VGG
+_upscore_layer	fcn32_vgg.py	/^    def _upscore_layer(self, bottom, shape,$/;"	m	class:FCN32VGG
+_upscore_layer	fcn8_vgg.py	/^    def _upscore_layer(self, bottom, shape,$/;"	m	class:FCN8VGG
+_upscore_layer	fcn8_vgg_ours.py	/^    def _upscore_layer(self, bottom, shape,$/;"	m	class:FCN8VGG
+_variable_summaries	fcn8_vgg.py	/^def _variable_summaries(var):$/;"	f
+_variable_summaries	fcn8_vgg_ours.py	/^def _variable_summaries(var):$/;"	f
+_variable_with_weight_decay	fcn16_vgg.py	/^    def _variable_with_weight_decay(self, shape, stddev, wd):$/;"	m	class:FCN16VGG
+_variable_with_weight_decay	fcn32_vgg.py	/^    def _variable_with_weight_decay(self, shape, stddev, wd):$/;"	m	class:FCN32VGG
+_variable_with_weight_decay	fcn8_vgg.py	/^    def _variable_with_weight_decay(self, shape, stddev, wd, decoder=False):$/;"	m	class:FCN8VGG
+_variable_with_weight_decay	fcn8_vgg_ours.py	/^    def _variable_with_weight_decay(self, shape, stddev, wd, decoder=False):$/;"	m	class:FCN8VGG
+absolute_import	fcn16_vgg.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	fcn32_vgg.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	fcn8_vgg.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	fcn8_vgg_ours.py	/^from __future__ import absolute_import$/;"	i
+absolute_import	loss.py	/^from __future__ import absolute_import$/;"	i
+batch_images	test_fcn16_vgg.py	/^    batch_images = tf.expand_dims(images, 0)$/;"	v
+batch_images	test_fcn32_vgg.py	/^    batch_images = tf.expand_dims(images, 0)$/;"	v
+batch_images	test_fcn8_vgg.py	/^    batch_images = tf.expand_dims(images, 0)$/;"	v
+build	fcn16_vgg.py	/^    def build(self, rgb, train=False, num_classes=20, random_init_fc8=False,$/;"	m	class:FCN16VGG
+build	fcn32_vgg.py	/^    def build(self, rgb, train=False, num_classes=20, random_init_fc8=False,$/;"	m	class:FCN32VGG
+build	fcn8_vgg.py	/^    def build(self, rgb, train=False, num_classes=20, random_init_fc8=False,$/;"	m	class:FCN8VGG
+build	fcn8_vgg_ours.py	/^    def build(self, rgb, train=False, num_classes=20, random_init_fc8=False,$/;"	m	class:FCN8VGG
+ceil	fcn16_vgg.py	/^from math import ceil$/;"	i
+ceil	fcn32_vgg.py	/^from math import ceil$/;"	i
+ceil	fcn8_vgg.py	/^from math import ceil$/;"	i
+ceil	fcn8_vgg_ours.py	/^from math import ceil$/;"	i
+cm	utils.py	/^    import matplotlib.cm$/;"	i
+color_image	utils.py	/^def color_image(image, num_classes=20):$/;"	f
+division	fcn16_vgg.py	/^from __future__ import division$/;"	i
+division	fcn32_vgg.py	/^from __future__ import division$/;"	i
+division	fcn8_vgg.py	/^from __future__ import division$/;"	i
+division	fcn8_vgg_ours.py	/^from __future__ import division$/;"	i
+division	loss.py	/^from __future__ import division$/;"	i
+down_color	test_fcn16_vgg.py	/^    down_color = utils.color_image(down[0])$/;"	v
+down_color	test_fcn32_vgg.py	/^    down_color = utils.color_image(down[0])$/;"	v
+down_color	test_fcn8_vgg.py	/^    down_color = utils.color_image(down[0])$/;"	v
+fcn16_vgg	test_fcn16_vgg.py	/^import fcn16_vgg$/;"	i
+fcn32_vgg	test_fcn32_vgg.py	/^import fcn32_vgg$/;"	i
+fcn8_vgg	test_fcn8_vgg.py	/^import fcn8_vgg$/;"	i
+feed_dict	test_fcn16_vgg.py	/^    feed_dict = {images: img1}$/;"	v
+feed_dict	test_fcn32_vgg.py	/^    feed_dict = {images: img1}$/;"	v
+feed_dict	test_fcn8_vgg.py	/^    feed_dict = {images: img1}$/;"	v
+get_bias	fcn16_vgg.py	/^    def get_bias(self, name, num_classes=None):$/;"	m	class:FCN16VGG
+get_bias	fcn32_vgg.py	/^    def get_bias(self, name, num_classes=None):$/;"	m	class:FCN32VGG
+get_bias	fcn8_vgg.py	/^    def get_bias(self, name, num_classes=None):$/;"	m	class:FCN8VGG
+get_bias	fcn8_vgg_ours.py	/^    def get_bias(self, name, num_classes=None):$/;"	m	class:FCN8VGG
+get_conv_filter	fcn16_vgg.py	/^    def get_conv_filter(self, name):$/;"	m	class:FCN16VGG
+get_conv_filter	fcn32_vgg.py	/^    def get_conv_filter(self, name):$/;"	m	class:FCN32VGG
+get_conv_filter	fcn8_vgg.py	/^    def get_conv_filter(self, name):$/;"	m	class:FCN8VGG
+get_conv_filter	fcn8_vgg_ours.py	/^    def get_conv_filter(self, name):$/;"	m	class:FCN8VGG
+get_deconv_filter	fcn16_vgg.py	/^    def get_deconv_filter(self, f_shape):$/;"	m	class:FCN16VGG
+get_deconv_filter	fcn32_vgg.py	/^    def get_deconv_filter(self, f_shape):$/;"	m	class:FCN32VGG
+get_deconv_filter	fcn8_vgg.py	/^    def get_deconv_filter(self, f_shape):$/;"	m	class:FCN8VGG
+get_deconv_filter	fcn8_vgg_ours.py	/^    def get_deconv_filter(self, f_shape):$/;"	m	class:FCN8VGG
+get_fc_weight	fcn16_vgg.py	/^    def get_fc_weight(self, name):$/;"	m	class:FCN16VGG
+get_fc_weight	fcn32_vgg.py	/^    def get_fc_weight(self, name):$/;"	m	class:FCN32VGG
+get_fc_weight	fcn8_vgg.py	/^    def get_fc_weight(self, name):$/;"	m	class:FCN8VGG
+get_fc_weight	fcn8_vgg_ours.py	/^    def get_fc_weight(self, name):$/;"	m	class:FCN8VGG
+get_fc_weight_reshape	fcn16_vgg.py	/^    def get_fc_weight_reshape(self, name, shape, num_classes=None):$/;"	m	class:FCN16VGG
+get_fc_weight_reshape	fcn32_vgg.py	/^    def get_fc_weight_reshape(self, name, shape, num_classes=None):$/;"	m	class:FCN32VGG
+get_fc_weight_reshape	fcn8_vgg.py	/^    def get_fc_weight_reshape(self, name, shape, num_classes=None):$/;"	m	class:FCN8VGG
+get_fc_weight_reshape	fcn8_vgg_ours.py	/^    def get_fc_weight_reshape(self, name, shape, num_classes=None):$/;"	m	class:FCN8VGG
+images	test_fcn16_vgg.py	/^    images = tf.placeholder("float")$/;"	v
+images	test_fcn32_vgg.py	/^    images = tf.placeholder("float")$/;"	v
+images	test_fcn8_vgg.py	/^    images = tf.placeholder("float")$/;"	v
+img1	test_fcn16_vgg.py	/^img1 = scp.misc.imread(".\/test_data\/tabby_cat.png")$/;"	v
+img1	test_fcn32_vgg.py	/^img1 = scp.misc.imread(".\/test_data\/tabby_cat.png")$/;"	v
+img1	test_fcn8_vgg.py	/^img1 = scp.misc.imread(".\/test_data\/tabby_cat.png")$/;"	v
+init	test_fcn16_vgg.py	/^    init = tf.global_variables_initializer()$/;"	v
+init	test_fcn32_vgg.py	/^    init = tf.global_variables_initializer()$/;"	v
+init	test_fcn8_vgg.py	/^    init = tf.global_variables_initializer()$/;"	v
+level	test_fcn16_vgg.py	/^                    level=logging.INFO,$/;"	v
+level	test_fcn8_vgg.py	/^                    level=logging.INFO,$/;"	v
+logging	fcn16_vgg.py	/^import logging$/;"	i
+logging	fcn32_vgg.py	/^import logging$/;"	i
+logging	fcn8_vgg.py	/^import logging$/;"	i
+logging	fcn8_vgg_ours.py	/^import logging$/;"	i
+logging	test_fcn16_vgg.py	/^import logging$/;"	i
+logging	test_fcn8_vgg.py	/^import logging$/;"	i
+loss	loss.py	/^def loss(logits, labels, num_classes, head=None):$/;"	f
+matplotlib	utils.py	/^    import matplotlib.cm$/;"	i
+misc	test_fcn16_vgg.py	/^import scipy.misc$/;"	i
+misc	test_fcn32_vgg.py	/^import scipy.misc$/;"	i
+misc	test_fcn8_vgg.py	/^import scipy.misc$/;"	i
+mpl	utils.py	/^    import matplotlib as mpl$/;"	i
+np	fcn16_vgg.py	/^import numpy as np$/;"	i
+np	fcn32_vgg.py	/^import numpy as np$/;"	i
+np	fcn8_vgg.py	/^import numpy as np$/;"	i
+np	fcn8_vgg_ours.py	/^import numpy as np$/;"	i
+np	test_fcn16_vgg.py	/^import numpy as np$/;"	i
+np	test_fcn32_vgg.py	/^import numpy as np$/;"	i
+np	test_fcn8_vgg.py	/^import numpy as np$/;"	i
+np	utils.py	/^import numpy as np$/;"	i
+ops	test_fcn16_vgg.py	/^from tensorflow.python.framework import ops$/;"	i
+ops	test_fcn32_vgg.py	/^from tensorflow.python.framework import ops$/;"	i
+ops	test_fcn8_vgg.py	/^from tensorflow.python.framework import ops$/;"	i
+os	fcn16_vgg.py	/^import os$/;"	i
+os	fcn32_vgg.py	/^import os$/;"	i
+os	fcn8_vgg.py	/^import os$/;"	i
+os	fcn8_vgg_ours.py	/^import os$/;"	i
+os	test_fcn16_vgg.py	/^import os$/;"	i
+os	test_fcn32_vgg.py	/^import os$/;"	i
+os	test_fcn8_vgg.py	/^import os$/;"	i
+print_function	fcn16_vgg.py	/^from __future__ import print_function$/;"	i
+print_function	fcn32_vgg.py	/^from __future__ import print_function$/;"	i
+print_function	fcn8_vgg.py	/^from __future__ import print_function$/;"	i
+print_function	fcn8_vgg_ours.py	/^from __future__ import print_function$/;"	i
+print_function	loss.py	/^from __future__ import print_function$/;"	i
+scipy	test_fcn16_vgg.py	/^import scipy.misc$/;"	i
+scipy	test_fcn32_vgg.py	/^import scipy.misc$/;"	i
+scipy	test_fcn8_vgg.py	/^import scipy.misc$/;"	i
+scp	test_fcn16_vgg.py	/^import scipy as scp$/;"	i
+scp	test_fcn32_vgg.py	/^import scipy as scp$/;"	i
+scp	test_fcn8_vgg.py	/^import scipy as scp$/;"	i
+stream	test_fcn16_vgg.py	/^                    stream=sys.stdout)$/;"	v
+stream	test_fcn8_vgg.py	/^                    stream=sys.stdout)$/;"	v
+sys	fcn16_vgg.py	/^import sys$/;"	i
+sys	fcn32_vgg.py	/^import sys$/;"	i
+sys	fcn8_vgg.py	/^import sys$/;"	i
+sys	fcn8_vgg_ours.py	/^import sys$/;"	i
+sys	test_fcn16_vgg.py	/^import sys$/;"	i
+sys	test_fcn8_vgg.py	/^import sys$/;"	i
+tensors	test_fcn16_vgg.py	/^    tensors = [vgg_fcn.pred, vgg_fcn.pred_up]$/;"	v
+tensors	test_fcn32_vgg.py	/^    tensors = [vgg_fcn.pred, vgg_fcn.pred_up]$/;"	v
+tensors	test_fcn8_vgg.py	/^    tensors = [vgg_fcn.pred, vgg_fcn.pred_up]$/;"	v
+tf	fcn16_vgg.py	/^import tensorflow as tf$/;"	i
+tf	fcn32_vgg.py	/^import tensorflow as tf$/;"	i
+tf	fcn8_vgg.py	/^import tensorflow as tf$/;"	i
+tf	fcn8_vgg_ours.py	/^import tensorflow as tf$/;"	i
+tf	loss.py	/^import tensorflow as tf$/;"	i
+tf	test_fcn16_vgg.py	/^import tensorflow as tf$/;"	i
+tf	test_fcn32_vgg.py	/^import tensorflow as tf$/;"	i
+tf	test_fcn8_vgg.py	/^import tensorflow as tf$/;"	i
+up_color	test_fcn16_vgg.py	/^    up_color = utils.color_image(up[0])$/;"	v
+up_color	test_fcn32_vgg.py	/^    up_color = utils.color_image(up[0])$/;"	v
+up_color	test_fcn8_vgg.py	/^    up_color = utils.color_image(up[0])$/;"	v
+utils	test_fcn16_vgg.py	/^import utils$/;"	i
+utils	test_fcn32_vgg.py	/^import utils$/;"	i
+utils	test_fcn8_vgg.py	/^import utils$/;"	i
+vgg_fcn	test_fcn16_vgg.py	/^    vgg_fcn = fcn16_vgg.FCN16VGG()$/;"	v
+vgg_fcn	test_fcn32_vgg.py	/^    vgg_fcn = fcn32_vgg.FCN32VGG()$/;"	v
+vgg_fcn	test_fcn8_vgg.py	/^    vgg_fcn = fcn8_vgg.FCN8VGG()$/;"	v

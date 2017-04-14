@@ -1,27 +1,22 @@
-Step2-Segmentation/checkpoints/
-Step2-Segmentation/DAVIS/
-Step2-Segmentation/ECSSD/
-Step2-Segmentation/MSRA10K_Imgs_GT/
-Step2-Segmentation/vgg16.npy
-DAVIS\ 2
-post_processing/result/
-result-*
-Step1-SSD/__pycache__
-Step1-SSD/checkpoints
-Step1-SSD/demo
-
-
-
-
+MSRA10K_Imgs_GT
+output
+ECSSD
+DAVIS
+checkpoints
+checkpoints_backup
+train_summary
+checkpoint_save
+summary_save
+test
 
 
 
 
 # Byte-compiled / optimized / DLL files
-.DS_Store
 __pycache__/
 *.py[cod]
 *$py.class
+*.npy
 
 # C extensions
 *.so
@@ -71,14 +66,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -86,27 +73,8 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+#Ipython Notebook
 .ipynb_checkpoints
 
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# dotenv
-.env
-
-# virtualenv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-
-# Rope project settings
-.ropeproject
-
-# caffe model
-*.caffemodel
+# IDE
+.idea
