@@ -1,2 +1,3 @@
 # 542PJ3
-Final Project of EECS542
+Please refer to this file:
+[project introduction](README.pdf)
